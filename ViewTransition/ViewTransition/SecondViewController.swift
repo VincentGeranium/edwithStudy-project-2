@@ -19,5 +19,9 @@ class SecondViewController: UIViewController {
     @IBAction func didTappedPopBtn() {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func didTappedDismissBtn() {
+        self.dismiss(animated: true, completion: nil)
+    }
 
 }
